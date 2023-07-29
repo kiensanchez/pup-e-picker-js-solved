@@ -142,3 +142,12 @@ If the data is still loading then...
 
 - [ ] All inputs should be disabled
 - [ ] Buttons should be disabled
+
+## What happens when you submit the form
+
+- [ ] When you submit the form, it should create a new dog in the database
+- [ ] If you navigate to the `all` tab, you should see the new dog in the list of dogs
+- [ ] If you navigate to the `favorited` tab, you should NOT see the new dog in the list of dogs
+- [ ] If you navigate to the `unfavorited` tab, you should see the new dog in the list of dogs
+- [ ] After the submission the form should be cleared, and the select should return to the default
+- [ ] After submitting a toast notification from `react-hot-toast` should appear saying "Dog Created"
