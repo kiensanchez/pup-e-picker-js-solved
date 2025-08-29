@@ -1,1 +1,123 @@
-{"dogs":[{"name":"Charlie","image":"/assets/blue-heeler.png","description":"as Tala Transmasculine Qatari East little damp","isFavorite":true,"id":0},{"name":"Carroll","image":"/assets/boxer.png","description":"marketplace County Southwest Card Phosphorus","isFavorite":false,"id":1},{"name":"Tobin","image":"/assets/chihuahua.avif","description":"Nevada Ringgit Coupe overriding North hm Cloned Cruiser","isFavorite":true,"id":2},{"name":"Antonia","image":"/assets/cowardly.png","description":"Supervisor Jany the utilisation male","isFavorite":true,"id":3},{"name":"Roy","image":"/assets/corgi.png","description":"Northwest Communications cyan payment bandwidth","isFavorite":true,"id":4},{"name":"Houston","image":"/assets/blue-heeler.png","description":"embrace TCP Data than Gwent Electronic restfully","isFavorite":true,"id":5},{"name":"Geovanni","image":"/assets/corgi.png","description":"payment challenge ouch joule Rubber tender South","isFavorite":true,"id":6},{"name":"Keira","image":"/assets/corgi.png","description":"Pants ampere North transmitting East","isFavorite":true,"id":7},{"name":"Darwin","image":"/assets/corgi.png","description":"Pop Oganesson Visionary corrigo likewise","isFavorite":true,"id":8},{"name":"Kip","image":"/assets/dalmation.png","description":"fuchsia Southwest interface sievert Minivan Tugrik mindshare","isFavorite":true,"id":9},{"name":"Cleora","image":"/assets/blue-heeler.png","description":"online since indexing Sawayn Solutions wonderfully calculating","isFavorite":false,"id":10},{"name":"Remington","image":"/assets/boxer.png","description":"Identity Gwynedd glower anti violet VGA North upward","isFavorite":true,"id":11},{"name":"Effie","image":"/assets/cowardly.png","description":"but now Technician Latin pixel ability North","isFavorite":true,"id":12},{"name":"Evalyn","image":"/assets/boxer.png","description":"cyan North loyally Jazz Lawrence up Mississippi","isFavorite":false,"id":13},{"name":"Murphy","image":"/assets/dalmation.png","description":"Future Clwyd Lockman furiously grey ambitus Bespoke","isFavorite":true,"id":14},{"name":"Gracie","image":"/assets/boxer.png","description":"siemens Tala holistic IB applications microchip Metal","isFavorite":true,"id":15},{"name":"Omari","image":"/assets/chihuahua.avif","description":"bandwidth desire Home generating panel hence Cyprus Accountability","isFavorite":true,"id":16},{"name":"Lela","image":"/assets/dalmation.png","description":"management Applications yowza Direct for purple Incredible Investor","isFavorite":false,"id":17},{"name":"Jamel","image":"/assets/dalmation.png","description":"Internal Plastic salmon deliver than","isFavorite":false,"id":18},{"name":"Michel","image":"/assets/blue-heeler.png","description":"strange Cotton Wagon Peso woman wireless female","isFavorite":true,"id":19}]}
+{
+  "dogs": [
+    {
+      "name": "Audie",
+      "image": "/assets/dalmation.png",
+      "description": "East deposit regain Gasoline Franklin",
+      "isFavorite": false,
+      "id": "0"
+    },
+    {
+      "name": "Larissa",
+      "image": "/assets/boxer.png",
+      "description": "becquerel Maserati anenst Dollar Direct female America accidentally",
+      "isFavorite": false,
+      "id": "2"
+    },
+    {
+      "name": "Sterling",
+      "image": "/assets/chihuahua.avif",
+      "description": "phew BMW transparent ubiquitous interactive Kwacha Steel",
+      "isFavorite": false,
+      "id": "3"
+    },
+    {
+      "name": "Lempi",
+      "image": "/assets/blue-heeler.png",
+      "description": "ack protocol Southwest Synergized regularise Facilitator program asymmetric",
+      "isFavorite": false,
+      "id": "4"
+    },
+    {
+      "name": "Sophie",
+      "image": "/assets/blue-heeler.png",
+      "description": "Specialist after Coordinator contingency green hmph Account",
+      "isFavorite": true,
+      "id": "5"
+    },
+    {
+      "name": "Alexandre",
+      "image": "/assets/corgi.png",
+      "description": "Executive Ball Durham male York",
+      "isFavorite": false,
+      "id": "6"
+    },
+    {
+      "name": "Luther",
+      "image": "/assets/dalmation.png",
+      "description": "Specialist intermediate swiftly Androgyne Royce East Legacy Games",
+      "isFavorite": false,
+      "id": "7"
+    },
+    {
+      "name": "Deion",
+      "image": "/assets/blue-heeler.png",
+      "description": "Shoes indeed mmm County groom leek Considine",
+      "isFavorite": true,
+      "id": "8"
+    },
+    {
+      "name": "Jacquelyn",
+      "image": "/assets/blue-heeler.png",
+      "description": "override Accountability however consequently Account sternly online",
+      "isFavorite": true,
+      "id": "9"
+    },
+    {
+      "name": "Emerson",
+      "image": "/assets/boxer.png",
+      "description": "Mercedes microchip quantify tan misname anti South Elegant",
+      "isFavorite": true,
+      "id": "10"
+    },
+    {
+      "name": "Shane",
+      "image": "/assets/chihuahua.avif",
+      "description": "Frozen Crist Surinam TCP haptic port District",
+      "isFavorite": true,
+      "id": "11"
+    },
+    {
+      "name": "Alivia",
+      "image": "/assets/dalmation.png",
+      "description": "West Scandium indexing Supervisor Industrial Steel revolutionize",
+      "isFavorite": true,
+      "id": "12"
+    },
+    {
+      "name": "Rosina",
+      "image": "/assets/blue-heeler.png",
+      "description": "demur Humberside Executive North katal enable Metal",
+      "isFavorite": true,
+      "id": "13"
+    },
+    {
+      "name": "Diana",
+      "image": "/assets/blue-heeler.png",
+      "description": "vindicate Aston red Bronze salmon Staffordshire West",
+      "isFavorite": true,
+      "id": "14"
+    },
+    {
+      "name": "Jadyn",
+      "image": "/assets/dalmation.png",
+      "description": "Strategist Colombia huzzah tamquam World",
+      "isFavorite": true,
+      "id": "15"
+    },
+    {
+      "name": "Jeanne",
+      "image": "/assets/boxer.png",
+      "description": "models Hatchback Diesel save Turner Accountability Bermuda",
+      "isFavorite": true,
+      "id": "16"
+    },
+    {
+      "name": "Preston",
+      "image": "/assets/corgi.png",
+      "description": "Small South how amplexus North",
+      "isFavorite": true,
+      "id": "17"
+    }
+  ]
+}
