@@ -45,8 +45,6 @@ export class ClassApp extends Component {
     const favoritesCount = dogs.favorites.length;
     const unfavoritesCount = dogs.unfavorites.length;
 
-    console.log(this.state);
-
     return (
       <div className="App" style={{ backgroundColor: "goldenrod" }}>
         <header>

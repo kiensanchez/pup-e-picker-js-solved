@@ -14,11 +14,21 @@ export const FunctionalCreateDogForm = ({
 
   const createNewDog = (dog) => {
     setIsLoading(true);
-    Requests.postDog(dog).then(() => {
-      fetchData()
+    return Requests.postDog(dog).then(() => {
+      return fetchData()
         .then(() => toast.success(`Created ${nameInput} 🐶`))
+        .catch(() => {
+          toast.error("Error creating dog");
+          throw new Error("Error creating dog");
+        })
         .finally(() => setIsLoading(false));
     });
+  };
+
+  const resetValues = () => {
+    setNameInput("");
+    setDescriptionInput("");
+    setImageInput(dogPictures.BlueHeeler);
   };
 
   const handleSubmit = (e) => {
@@ -35,10 +45,7 @@ export const FunctionalCreateDogForm = ({
       isFavorite: false,
     };
 
-    createNewDog(newDog);
-    setNameInput("");
-    setDescriptionInput("");
-    setImageInput(dogPictures.BlueHeeler);
+    createNewDog(newDog).then(() => resetValues());
   };
 
   return (

@@ -11,15 +11,19 @@ export const FunctionalDogs = ({
 }) => {
   const handleDelete = (id) => {
     setIsLoading(true);
-    Requests.deleteDog(id)
+    return Requests.deleteDog(id)
       .then(() => fetchData())
       .then(() => toast.success("Dog deleted!"))
+      .catch(() => {
+        toast.error("Error deleting dog");
+        throw new Error("Error deleting dog");
+      })
       .finally(() => setIsLoading(false));
   };
 
   const handleFavorite = (dog, id) => {
     setIsLoading(true);
-    Requests.updateDog(dog, id)
+    return Requests.updateDog(dog, id)
       .then(() => fetchData())
       .then(() => {
         if (dog.isFavorite) {
@@ -27,6 +31,10 @@ export const FunctionalDogs = ({
         } else {
           toast.success("Dog favorited!");
         }
+      })
+      .catch(() => {
+        toast.error("Failed to update favorite status");
+        throw new Error("Failed to update favorite status");
       })
       .finally(() => setIsLoading(false));
   };

@@ -15,10 +15,22 @@ export class ClassCreateDogForm extends Component {
 
     const createNewDog = (dog) => {
       setIsLoading(true);
-      Requests.postDog(dog).then(() => {
-        fetchData()
+      return Requests.postDog(dog).then(() => {
+        return fetchData()
           .then(() => toast.success(`Created ${this.state.nameInput}`))
+          .catch(() => {
+            toast.error("Error creating dog");
+            throw new Error("Error creating dog");
+          })
           .finally(() => setIsLoading(false));
+      });
+    };
+
+    const resetValues = () => {
+      this.setState({
+        nameInput: "",
+        descriptionInput: "",
+        imageInput: dogPictures.BlueHeeler,
       });
     };
 
@@ -39,12 +51,7 @@ export class ClassCreateDogForm extends Component {
         isFavorite: false,
       };
 
-      createNewDog(newDog);
-      this.setState({
-        nameInput: "",
-        descriptionInput: "",
-        imageInput: dogPictures.BlueHeeler,
-      });
+      createNewDog(newDog).then(() => resetValues());
     };
 
     return (

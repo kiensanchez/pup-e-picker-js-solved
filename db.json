@@ -22,27 +22,6 @@
       "id": "3"
     },
     {
-      "name": "Lempi",
-      "image": "/assets/blue-heeler.png",
-      "description": "ack protocol Southwest Synergized regularise Facilitator program asymmetric",
-      "isFavorite": false,
-      "id": "4"
-    },
-    {
-      "name": "Sophie",
-      "image": "/assets/blue-heeler.png",
-      "description": "Specialist after Coordinator contingency green hmph Account",
-      "isFavorite": true,
-      "id": "5"
-    },
-    {
-      "name": "Alexandre",
-      "image": "/assets/corgi.png",
-      "description": "Executive Ball Durham male York",
-      "isFavorite": false,
-      "id": "6"
-    },
-    {
       "name": "Luther",
       "image": "/assets/dalmation.png",
       "description": "Specialist intermediate swiftly Androgyne Royce East Legacy Games",
@@ -118,6 +97,13 @@
       "description": "Small South how amplexus North",
       "isFavorite": true,
       "id": "17"
+    },
+    {
+      "id": "e098",
+      "name": "bisdakol",
+      "image": "/assets/cowardly.png",
+      "description": "handsome",
+      "isFavorite": false
     }
   ]
 }

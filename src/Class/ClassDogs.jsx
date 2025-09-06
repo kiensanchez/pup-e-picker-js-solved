@@ -10,9 +10,13 @@ export class ClassDogs extends Component {
 
     const handleDelete = (id) => {
       setIsLoading(true);
-      Requests.deleteDog(id)
+      return Requests.deleteDog(id)
         .then(() => fetchData())
         .then(() => toast.success("Dog deleted!"))
+        .catch(() => {
+          toast.error("Failed to delete dog.");
+          throw new Error("Failed to delete dog.");
+        })
         .finally(() => setIsLoading(false));
     };
 
@@ -26,6 +30,10 @@ export class ClassDogs extends Component {
           } else {
             toast.success("Dog favorited!");
           }
+        })
+        .catch(() => {
+          toast.error("Failed to update favorite status.");
+          throw new Error("Failed to update favorite status.");
         })
         .finally(() => setIsLoading(false));
     };
